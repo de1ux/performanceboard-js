@@ -1,0 +1,9 @@
+{
+    "name": "performanceboard-js",
+    "version": "0.0.1",
+    "private": "false",
+    "ignore": [
+        "bower_components",
+        "test"
+    ]
+}

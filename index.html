@@ -1,0 +1,13 @@
+<script type="text/javascript" src="src/PerformanceBoard.js"></script>
+<script>
+    var url = 'http://localhost:8080/api/ahtkZXZ-cGVyZm9ybWFuY2Vib2FyZC1wdWJsaWNyEgsSBUJvYXJkGICAgICAgIAKDA';
+    var metric = PerformanceBoard('awesome_tag', url);
+    metric(function() {
+        var total = 0;
+        for (var i = 0, len = 100; i < len; i++) {
+            total += i;
+        }
+    });
+
+    console.log(metric);
+</script>
